@@ -6,6 +6,7 @@
   padding-inline: 50px;
   margin-inline: auto;
   margin-top: 50px;
+  position: relative;
 }
 
 .navigation {
@@ -19,4 +20,11 @@
 
 .navigation a:hover {
   color: var(--neutral-dark-400);
+}
+
+.backgroundImage {
+  position: absolute;
+  z-index: -1;
+  left: 60%;
+  transform: translateY(15%);
 }

@@ -5,6 +5,11 @@ import MainButton from "./MainButton";
 function Header() {
   return (
     <header className={styles.header}>
+      <img
+        src="../../public/images/bg-tablet-pattern.svg"
+        alt=""
+        className={styles.backgroundImage}
+      />
       <a href="#">
         <img src="../../public/images/logo.svg" alt="logo" height={24} />
       </a>
