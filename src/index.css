@@ -52,10 +52,16 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+h1,
+h2,
+h3,
+a {
+  color: var(--primary-dark);
+}
+
 /* GLOBAL TWEAKS */
 a {
   text-decoration: none;
-  color: inherit;
 }
 button {
   cursor: pointer;
