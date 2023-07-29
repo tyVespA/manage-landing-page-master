@@ -70,3 +70,9 @@ a {
 button {
   cursor: pointer;
 }
+
+/* HELPER CLASSES */
+.maxedWidth {
+  max-width: 1400px;
+  padding-inline: 50px;
+}

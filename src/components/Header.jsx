@@ -4,7 +4,7 @@ import MainButton from "./MainButton";
 
 function Header() {
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} maxedWidth`}>
       <img
         src="../../public/images/bg-tablet-pattern.svg"
         alt=""
