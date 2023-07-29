@@ -1,0 +1,13 @@
+.mainButton {
+  background-color: var(--primary-bright);
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border: transparent;
+  border-radius: 40px;
+  box-shadow: hsl(12, 88%, 59%) 0px 10px 60px -12px;
+  transition: all 0.2s;
+}
+
+.mainButton:hover {
+  filter: opacity(0.8);
+}
