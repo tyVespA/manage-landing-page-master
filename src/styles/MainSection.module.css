@@ -19,3 +19,24 @@
   flex-direction: column;
   gap: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-inline: auto;
+  }
+  .title p {
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title h2 {
+    font-size: 30px;
+  }
+}
