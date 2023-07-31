@@ -3,6 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 150px;
+  position: relative;
 }
 
 .title h2 {
@@ -20,6 +21,13 @@
   gap: 50px;
 }
 
+.backgroundImage {
+  position: absolute;
+  z-index: -1;
+  left: -35%;
+  top: 60%;
+}
+
 @media screen and (max-width: 1000px) {
   .main {
     flex-direction: column;
@@ -32,6 +40,9 @@
   }
   .title p {
     margin-inline: auto;
+  }
+  .backgroundImage {
+    display: none;
   }
 }
 

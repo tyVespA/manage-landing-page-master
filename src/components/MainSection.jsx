@@ -36,6 +36,11 @@ function MainSection() {
           }
         ></BulletPoint>
       </div>
+      <img
+        src="../../public/images/bg-tablet-pattern.svg"
+        alt=""
+        className={styles.backgroundImage}
+      />
     </div>
   );
 }
