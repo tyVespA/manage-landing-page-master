@@ -79,6 +79,6 @@ button {
 /* HELPER CLASSES */
 .maxedWidth {
   max-width: 1400px;
-  padding-inline: 50px;
+  padding-inline: 20px;
   margin-inline: auto;
 }
