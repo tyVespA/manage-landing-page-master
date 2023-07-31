@@ -59,6 +59,11 @@ a {
   color: var(--primary-dark);
 }
 
+p {
+  color: var(--neutral-dark-400);
+  font-weight: 400;
+}
+
 /* GLOBAL TWEAKS */
 body {
   overflow-x: hidden;
@@ -75,4 +80,5 @@ button {
 .maxedWidth {
   max-width: 1400px;
   padding-inline: 50px;
+  margin-inline: auto;
 }
