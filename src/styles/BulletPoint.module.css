@@ -1,0 +1,20 @@
+.bulletPointContainer {
+  display: grid;
+  grid-template-columns: 0.1fr 2fr;
+  gap: 35px;
+  align-items: center;
+}
+
+.bulletPoint {
+  background-color: var(--primary-bright);
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 30px;
+  /* margin-right: 40px; */
+}
+
+.text {
+  margin-top: -20px;
+  max-width: 42ch;
+}
