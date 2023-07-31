@@ -1,8 +1,8 @@
-.bulletPointContainer {
-  display: grid;
-  grid-template-columns: 0.1fr 2fr;
-  gap: 35px;
+.title {
+  display: flex;
   align-items: center;
+  gap: 25px;
+  position: relative;
 }
 
 .bulletPoint {
@@ -11,10 +11,41 @@
   font-weight: 700;
   padding: 10px 30px;
   border-radius: 30px;
-  /* margin-right: 40px; */
 }
 
 .text {
-  margin-top: -20px;
   max-width: 42ch;
+  margin-left: 105px;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    gap: 15px;
+  }
+  .title::after {
+    position: absolute;
+    width: 120vw;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    border-radius: 30px;
+    right: 1000px;
+    content: "";
+    background-color: var(--primary-bright);
+    filter: opacity(0.2);
+  }
+  .text {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bulletPoint {
+    padding: 10px 25px;
+  }
+  .title h3 {
+    font-size: 16px;
+  }
 }
