@@ -22,3 +22,24 @@
 .heroText button {
   align-self: flex-start;
 }
+
+@media screen and (max-width: 1000px) {
+  .heroSection {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  .heroText {
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .heroText button {
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heroSection h1 {
+    font-size: 35px;
+  }
+}
