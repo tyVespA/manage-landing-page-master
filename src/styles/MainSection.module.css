@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.title h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  max-width: 20ch;
+}
+.title p {
+  max-width: 33ch;
+}
+
+.bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
